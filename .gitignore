@@ -404,3 +404,20 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# ---------- Unity ----------
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild*/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# Addressables & Shader cache
+[Aa]ssets/**/StreamingAssets/aa.meta
+[Aa]ssets/**/StreamingAssets/aa/**
+[Aa]ssets/**/ShaderCache/
+
+# 반드시 추적해야 하는 .meta 파일은 그대로 두기
+!*.meta
