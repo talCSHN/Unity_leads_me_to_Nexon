@@ -421,3 +421,6 @@ FodyWeavers.xsd
 
 # 반드시 추적해야 하는 .meta 파일은 그대로 두기
 !*.meta
+
+*.csproj
+*.sln
